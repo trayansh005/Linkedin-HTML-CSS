@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Profile</title>
+        <link rel="stylesheet" href="style.css" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;600;700&family=Poppins:wght@300;400;500;600;700;900&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="navbar-left">
+                <a href="index.html" class="logo">
+                    <img src="/images/logo.png" alt="logo" />
+                </a>
+
+                <div class="search-box">
+                    <img src="images/search.png" />
+                    <input type="text" placeholder="Search" />
+                </div>
+            </div>
+            <div class="navbar-center">
+                <ul>
+                    <li>
+                        <a href="#" class="active-link">
+                            <img src="images/home.png" />
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/network.png" />
+                            <span>My Network</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/jobs.png" />
+                            <span>Jobs</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/message.png" />
+                            <span>Messages</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/notification.png" />
+                            <span>Notification</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="navbar-right">
+                <div class="online">
+                    <img src="images/user-1.png" class="nav-profile-img" onclick="toggleMenu()" />
+                </div>
+            </div>
+
+            <div class="profile-menu-wrap" id="profileMenu">
+                <div class="profile-menu">
+                    <div class="user-info">
+                        <img src="images/user-1.png" alt="" />
+                        <div>
+                            <h3>Rayan Walton</h3>
+                            <a href="#">See your profile</a>
+                        </div>
+                    </div>
+                    <hr />
+                    <a href="#" class="profile-menu-link">
+                        <img src="images/feedback.png" alt="" />
+                        <p>Give Feedback</p>
+                        <span>></span>
+                    </a>
+                    <a href="#" class="profile-menu-link">
+                        <img src="images/feedback.png" alt="" />
+                        <p>Give Feedback</p>
+                        <span>></span>
+                    </a>
+                    <a href="#" class="profile-menu-link">
+                        <img src="images/feedback.png" alt="" />
+                        <p>Give Feedback</p>
+                        <span>></span>
+                    </a>
+                    <a href="#" class="profile-menu-link">
+                        <img src="images/feedback.png" alt="" />
+                        <p>Give Feedback</p>
+                        <span>></span>
+                    </a>
+                    <a href="#" class="profile-menu-link">
+                        <img src="images/feedback.png" alt="" />
+                        <p>Give Feedback</p>
+                        <span>></span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="profile-main-content">
+                <div class="profile-box">
+                    <img src="images/cover-pic.png" alt="" width="100%" />
+                    <div class="profile-info">
+                        <img src="images/user-1.png" alt="" />
+                        <h1>Rayan Walton</h1>
+                        <p>Web Developer at Microsoft | Former Developer at DataStack and Intern at Oracle</p>
+                        <span>San Francisco, United States</span> &middot; <span class="contact">Contact Info</span>
+                    </div>
+
+                    <div class="connection">
+                        <img src="images/user-4.png" alt="" />
+                        <p>1 mutual connection: Katherine Diggs</p>
+                    </div>
+
+                    <div class="profile-buttons">
+                        <div class="connect-btn">
+                            <img src="images/connect.png" alt="" />
+                            <span>Connect</span>
+                        </div>
+                        <div class="message-btn">
+                            <img src="images/chat.png" alt="" />
+                            <span>Message</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-box">
+                    <div class="about-info">
+                        <h2>About</h2>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores eaque expedita quibusdam consequuntur a
+                            nobis autem molestiae assumenda vero. Ducimus dolores, doloribus vel quae rerum iure aut quo nemo accusamus.
+                        </p>
+                        <span class="see-more">See more...</span>
+                    </div>
+                </div>
+
+                <div class="exp-box">
+                    <div class="exp-info">
+                        <h2>Experience</h2>
+                        <div class="exp-wrapper">
+                            <img src="images/microsoft.png" alt="" />
+
+                            <div class="exp-card">
+                                <h4>Lead Front-End Developer</h4>
+                                <small>Microsoft &middot; Full-Time</small>
+                                <p>Feb 2021 - Present &middot; 1.5 years</p>
+                                <p class="pos-info">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit unde modi reiciendis debitis excepturi
+                                    vero porro ab provident impedit consectetur?
+                                </p>
+                                <hr />
+                            </div>
+                        </div>
+
+                        <div class="exp-wrapper">
+                            <img src="images/slack.png" alt="" />
+
+                            <div class="exp-card">
+                                <h4>Full Stack Developer</h4>
+                                <small>Slack &middot; Full-Time</small>
+                                <p>June 2018 - Jan 2021 &middot; 2.6 years</p>
+                                <p class="pos-info">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit unde modi reiciendis debitis excepturi
+                                    vero porro ab provident impedit consectetur?
+                                </p>
+                                <hr />
+                            </div>
+                        </div>
+
+                        <div class="exp-wrapper">
+                            <img src="images/google.png" alt="" />
+
+                            <div class="exp-card">
+                                <h4>Web Developer</h4>
+                                <small>Google Inc &middot; Full-Time</small>
+                                <p>Sept 2015 - May 2018 &middot; 2.8 years</p>
+                                <p class="pos-info">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit unde modi reiciendis debitis excepturi
+                                    vero porro ab provident impedit consectetur?
+                                </p>
+                                <hr />
+                            </div>
+                        </div>
+                    </div>
+                    <span class="show-all">Show all <img src="images/right-arrow.png" alt="" /></span>
+                </div>
+
+                <div class="exp-box">
+                    <div class="exp-info">
+                        <h2>Education</h2>
+                        <div class="exp-wrapper">
+                            <img src="images/stanford.png" alt="" />
+
+                            <div class="exp-card">
+                                <h4>Stanford University</h4>
+                                <small>BSEE, Electrical Engineering</small>
+                                <p>2018 - 2022</p>
+                                <hr />
+                            </div>
+                        </div>
+
+                        <div class="exp-wrapper">
+                            <img src="images/north.png" alt="" />
+
+                            <div class="exp-card">
+                                <h4>Northwestern University</h4>
+                                <small>Computer Science</small>
+                                <p>2015-2018</p>
+                            </div>
+                        </div>
+
+                        <div class="exp-wrapper">
+                            <img src="images/mit.png" alt="" />
+
+                            <div class="exp-card">
+                                <h4>Harvard University</h4>
+                                <small>Senior High School</small>
+                                <p>2005 - 2015</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-box">
+                    <h2>Skills</h2>
+                    <div class="skills-info">
+                        <span>Leadership</span>
+                        <span>Web Design</span>
+                        <span>Python</span>
+                        <span>Communication</span>
+                        <span>Coding</span>
+                        <span>JavaScript</span>
+                        <span>REACT</span>
+                        <span>JAVA</span>
+                        <span>Development</span>
+                        <span>Front End</span>
+                    </div>
+                </div>
+
+                <div class="skills-box">
+                    <h2>Languages</h2>
+                    <div class="skills-info">
+                        <span>English</span>
+                        <span>German</span>
+                        <span>Spanish</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="profile-right-sidebar">
+                <div class="sidebar-ad-2">
+                    <small>Ad &middot; &middot; &middot;</small>
+                    <p>Master the 5 principles of web design</p>
+                    <div>
+                        <img src="images/user-1.png" alt="" />
+                        <img src="images/mi-logo.png" alt="" />
+                    </div>
+                    <b>Brand and Demand in Xiaomi</b>
+                    <a href="#" class="adv-link">Learn More</a>
+                </div>
+
+                <div class="sidebar-connect">
+                    <h5>People you may know</h5>
+                    <div class="connect-box">
+                        <img src="images/user-3.png" alt="" />
+                        <div>
+                            <p>Alexa Jones</p>
+                            <a href="#">Connect</a>
+                        </div>
+                    </div>
+                    <div class="connect-box">
+                        <img src="images/user-2.png" alt="" />
+                        <div>
+                            <p>Samuel Ray</p>
+                            <a href="#">Connect</a>
+                        </div>
+                    </div>
+                    <div class="connect-box">
+                        <img src="images/user-5.png" alt="" />
+                        <div>
+                            <p>Lee Chang</p>
+                            <a href="#">Connect</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
